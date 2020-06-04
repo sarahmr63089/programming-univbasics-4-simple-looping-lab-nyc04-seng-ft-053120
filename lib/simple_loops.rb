@@ -28,4 +28,5 @@ def return_string_array (array)
   #end
   #new_array
   array.each{|item| new_array.push(item.to_s)}
+  new_array
 end
