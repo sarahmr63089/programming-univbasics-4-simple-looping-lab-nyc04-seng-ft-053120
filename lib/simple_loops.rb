@@ -1,8 +1,12 @@
 # Write your methods here
 require "pry"
 
-def loop_message_five_times(string)
-  puts 5.times(string)
+def loop_message_five_times (string)
+  puts string
+  puts string
+  puts string
+  puts string
+  puts string
 end
 
 def loop_message_n_times
