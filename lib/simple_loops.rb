@@ -21,11 +21,11 @@ def return_string_array (array)
     #counter += 1
   #end
   #new_array
-  array.each {|element|
-    new_item = element.to_s
-    new_array << new_item
-    }
+  #array.each {|element|
+    #new_item = element.to_s
+    #new_array << new_item
+    #}
   #end
-  new_array
-  array.map{|item| item.to_s>>new_array}
+  #new_array
+  array.map{|item| new_array << item.to_s}
 end
