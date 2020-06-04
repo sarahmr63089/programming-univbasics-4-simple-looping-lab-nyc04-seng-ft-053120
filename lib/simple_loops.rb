@@ -27,5 +27,5 @@ def return_string_array (array)
     #}
   #end
   #new_array
-  array.map{|item| new_array << item.to_s}
+  array.each{|item| new_array << item.to_s}
 end
