@@ -13,7 +13,6 @@ def output_array (array)
 end
 
 def return_string_array (array)
-#This method should loop over the provided array, convert each element to a string, and return the new array of strings.
   counter = 0
   new_array = []
   while array[counter] do
