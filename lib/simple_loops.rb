@@ -13,12 +13,18 @@ def output_array (array)
 end
 
 def return_string_array (array)
-  counter = 0
+  #counter = 0
   new_array = []
-  while array[counter] do
-    new_item = array[counter].to_s
+  #while array[counter] do
+    #new_item = array[counter].to_s
+    #new_array << new_item
+    #counter += 1
+  #end
+  #new_array
+  array.each {|element|
+    new_item = element.to_s
     new_array << new_item
-    counter += 1
-  end
+    }
+  #end
   new_array
 end
