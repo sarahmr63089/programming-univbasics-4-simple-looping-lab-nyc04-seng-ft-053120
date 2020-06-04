@@ -27,4 +27,5 @@ def return_string_array (array)
     }
   #end
   new_array
+  array.map{|item| item.to_s>>new_array}
 end
